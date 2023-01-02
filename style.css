@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relogio-digital {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background-color: transparent;
+    border-radius: 6px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .9);
+    flex-wrap: wrap;
+
+}
+
+#relog {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5,.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 4px;
+}
+
+#relog span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+#relog span.tempo {
+    font-size: 15px;
+}
+
+
+/* responsivo */
+
+@media(max-width:430px) {
+
+}
+
+
+
